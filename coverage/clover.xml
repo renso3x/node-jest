@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1660614468696" clover="3.2.0">
-  <project timestamp="1660614468696" name="All files">
-    <metrics statements="249" coveredstatements="94" conditionals="81" coveredconditionals="24" methods="64" coveredmethods="19" elements="394" coveredelements="137" complexity="0" loc="249" ncloc="249" packages="7" files="12" classes="12"/>
+<coverage generated="1660624923127" clover="3.2.0">
+  <project timestamp="1660624923128" name="All files">
+    <metrics statements="249" coveredstatements="102" conditionals="81" coveredconditionals="27" methods="64" coveredmethods="23" elements="394" coveredelements="152" complexity="0" loc="249" ncloc="249" packages="7" files="12" classes="12"/>
     <package name="app">
       <metrics statements="16" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <file name="Launcher.ts" path="C:\Users\IVE Admin User\code\react\node-testing\src\app\Launcher.ts">
@@ -28,7 +28,7 @@
       </file>
     </package>
     <package name="app.Authorization">
-      <metrics statements="67" coveredstatements="30" conditionals="31" coveredconditionals="6" methods="22" coveredmethods="7"/>
+      <metrics statements="67" coveredstatements="38" conditionals="31" coveredconditionals="9" methods="22" coveredmethods="11"/>
       <file name="Authorizer.ts" path="C:\Users\IVE Admin User\code\react\node-testing\src\app\Authorization\Authorizer.ts">
         <metrics statements="27" coveredstatements="20" conditionals="15" coveredconditionals="6" methods="6" coveredmethods="5"/>
         <line num="1" count="1" type="stmt"/>
@@ -60,19 +60,19 @@
         <line num="62" count="1" type="stmt"/>
       </file>
       <file name="SessionTokenDBAccess.ts" path="C:\Users\IVE Admin User\code\react\node-testing\src\app\Authorization\SessionTokenDBAccess.ts">
-        <metrics statements="20" coveredstatements="5" conditionals="8" coveredconditionals="0" methods="8" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
+        <metrics statements="20" coveredstatements="13" conditionals="8" coveredconditionals="3" methods="8" coveredmethods="5"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
         <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -80,7 +80,7 @@
         <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="32" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
       </file>
       <file name="UserCredentialsDbAccess.ts" path="C:\Users\IVE Admin User\code\react\node-testing\src\app\Authorization\UserCredentialsDbAccess.ts">
         <metrics statements="20" coveredstatements="5" conditionals="8" coveredconditionals="0" methods="8" coveredmethods="1"/>
