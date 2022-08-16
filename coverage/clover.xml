@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1660605547883" clover="3.2.0">
-  <project timestamp="1660605547884" name="All files">
-    <metrics statements="249" coveredstatements="60" conditionals="81" coveredconditionals="17" methods="64" coveredmethods="12" elements="394" coveredelements="89" complexity="0" loc="249" ncloc="249" packages="7" files="12" classes="12"/>
+<coverage generated="1660614468696" clover="3.2.0">
+  <project timestamp="1660614468696" name="All files">
+    <metrics statements="249" coveredstatements="94" conditionals="81" coveredconditionals="24" methods="64" coveredmethods="19" elements="394" coveredelements="137" complexity="0" loc="249" ncloc="249" packages="7" files="12" classes="12"/>
     <package name="app">
       <metrics statements="16" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <file name="Launcher.ts" path="C:\Users\IVE Admin User\code\react\node-testing\src\app\Launcher.ts">
@@ -28,51 +28,51 @@
       </file>
     </package>
     <package name="app.Authorization">
-      <metrics statements="67" coveredstatements="0" conditionals="31" coveredconditionals="0" methods="22" coveredmethods="0"/>
+      <metrics statements="67" coveredstatements="30" conditionals="31" coveredconditionals="6" methods="22" coveredmethods="7"/>
       <file name="Authorizer.ts" path="C:\Users\IVE Admin User\code\react\node-testing\src\app\Authorization\Authorizer.ts">
-        <metrics statements="27" coveredstatements="0" conditionals="15" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
+        <metrics statements="27" coveredstatements="20" conditionals="15" coveredconditionals="6" methods="6" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="11" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="22" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
         <line num="38" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="39" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="40" count="0" type="stmt"/>
         <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="45" count="0" type="stmt"/>
         <line num="49" count="0" type="stmt"/>
-        <line num="55" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
       </file>
       <file name="SessionTokenDBAccess.ts" path="C:\Users\IVE Admin User\code\react\node-testing\src\app\Authorization\SessionTokenDBAccess.ts">
-        <metrics statements="20" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="8" coveredmethods="0"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
+        <metrics statements="20" coveredstatements="5" conditionals="8" coveredconditionals="0" methods="8" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="17" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
         <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -80,22 +80,22 @@
         <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="32" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
       </file>
       <file name="UserCredentialsDbAccess.ts" path="C:\Users\IVE Admin User\code\react\node-testing\src\app\Authorization\UserCredentialsDbAccess.ts">
-        <metrics statements="20" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="8" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
+        <metrics statements="20" coveredstatements="5" conditionals="8" coveredconditionals="0" methods="8" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="17" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
         <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -103,7 +103,7 @@
         <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="32" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
       </file>
     </package>
     <package name="app.Data">
@@ -132,7 +132,7 @@
       </file>
     </package>
     <package name="app.Handlers">
-      <metrics statements="70" coveredstatements="25" conditionals="21" coveredconditionals="6" methods="11" coveredmethods="5"/>
+      <metrics statements="70" coveredstatements="29" conditionals="21" coveredconditionals="7" methods="11" coveredmethods="5"/>
       <file name="DataHandler.ts" path="C:\Users\IVE Admin User\code\react\node-testing\src\app\Handlers\DataHandler.ts">
         <metrics statements="41" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="2" count="0" type="stmt"/>
@@ -178,35 +178,35 @@
         <line num="74" count="0" type="stmt"/>
       </file>
       <file name="LoginHandler.ts" path="C:\Users\IVE Admin User\code\react\node-testing\src\app\Handlers\LoginHandler.ts">
-        <metrics statements="29" coveredstatements="25" conditionals="7" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <metrics statements="29" coveredstatements="29" conditionals="7" coveredconditionals="7" methods="5" coveredmethods="5"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
         <line num="20" count="1" type="cond" truecount="2" falsecount="0"/>
         <line num="21" count="2" type="cond" truecount="3" falsecount="0"/>
         <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
         <line num="31" count="1" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
         <line num="35" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
-        <line num="39" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="39" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="40" count="1" type="stmt"/>
         <line num="41" count="1" type="stmt"/>
         <line num="42" count="1" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
         <line num="52" count="1" type="stmt"/>
       </file>
     </package>
@@ -214,28 +214,28 @@
       <metrics statements="28" coveredstatements="22" conditionals="10" coveredconditionals="8" methods="5" coveredmethods="4"/>
       <file name="ServerModels.ts" path="C:\Users\IVE Admin User\code\react\node-testing\src\app\Models\ServerModels.ts">
         <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
-        <line num="21" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="27" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="51" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="52" count="1" type="stmt"/>
-        <line num="53" count="1" type="stmt"/>
-        <line num="54" count="1" type="stmt"/>
-        <line num="55" count="1" type="stmt"/>
-        <line num="56" count="1" type="stmt"/>
-        <line num="57" count="1" type="stmt"/>
-        <line num="60" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="61" count="1" type="stmt"/>
-        <line num="62" count="1" type="stmt"/>
-        <line num="63" count="1" type="stmt"/>
-        <line num="64" count="1" type="stmt"/>
-        <line num="65" count="1" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="51" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="60" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
       </file>
       <file name="UserModels.ts" path="C:\Users\IVE Admin User\code\react\node-testing\src\app\Models\UserModels.ts">
         <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
